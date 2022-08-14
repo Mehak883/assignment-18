@@ -2,18 +2,20 @@
 (For example if the given string is “Mysirg Education Services” then the resulting string should be “Services Education Mysirg” )*/
 #include <stdio.h>
 #include <string.h>
-void rev(char str[10]) int main()
+void rev(char str[10]) ;
+int main()
 {
     char s[10];
     printf(" Enter a String :  ");
-    gets(str);
+    gets(s);
     rev(s);
-    len = strlen(str);
+   
     return 0;
 }
 void rev(char str[])
 {
-    int i, len, j, k;
+    int i, len, j,k;
+    len=strlen(str);
     k = len - 1;
 
     printf("\nReverse Order of string  \n");
